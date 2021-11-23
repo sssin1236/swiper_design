@@ -33,4 +33,41 @@
             }
         }
     }
+
+    .swiper-button-next{
+        top: auto;
+        bottom: 5vh; right: 10vw;
+        transform: scale(0.5);
+        filter: brightness(0%);
+        opacity: 0.7;
+    }
+
+    .swiper-button-prev{
+        top: auto; left: auto;
+        bottom: 5vh; right: calc(10vw + 50px);
+        transform: scale(0.5);
+        filter: brightness(0%);
+        opacity: 0.7;
+    }
+
+    .swiper-pagination{
+        position: absolute;
+        left: auto;
+        right: 10vw; top: 10vh; 
+        width: auto; height: 50px;
+
+        span{
+            width: auto; height: auto;
+            background: transparent;
+            border-radius: 0px;
+            margin-left: 60px;
+            opacity: 0.7;
+            color: #888;
+
+            &.swiper-pagination-bullet-active{
+                opacity: 1;
+                color: #fff;
+            }
+        }
+    }
 }
