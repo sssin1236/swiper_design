@@ -74,7 +74,7 @@ a {
     position: absolute;
     left: auto;
     right: 10vw;
-    top: 10vh;
+    top: 5vh;
     width: auto;
     height: 50px;
     z-index: 2; }
@@ -85,9 +85,9 @@ a {
       border-radius: 0px;
       margin-left: 60px;
       opacity: 0.7;
-      color: #888; }
+      color: #333; }
       #swiper .swiper-pagination span.swiper-pagination-bullet-active {
         opacity: 1;
-        color: #fff; }
+        color: #111; }
 
 /*# sourceMappingURL=style.css.map */
