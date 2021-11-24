@@ -60,11 +60,33 @@ a {
       #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="0"] .inner .left {
         width: 50%;
         height: 100%;
-        float: left; }
+        float: left;
+        padding: 50px;
+        text-align: right; }
+        #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="0"] .inner .left h1 {
+          font: bold 150px/1 'arial';
+          color: tan;
+          margin-top: 30px;
+          margin-bottom: 20px; }
+        #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="0"] .inner .left p {
+          width: 70%;
+          font: 50px/1 'arial';
+          color: #c2ad92;
+          text-align: left;
+          margin-bottom: 40px; }
+        #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="0"] .inner .left .pic {
+          width: 50%;
+          float: right; }
+          #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="0"] .inner .left .pic img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            background: #eee; }
       #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="0"] .inner .right {
         width: 50%;
         height: 100%;
-        float: right; }
+        float: right;
+        padding: 50px; }
   #swiper .swiper-button-next {
     top: auto;
     bottom: 5vh;
