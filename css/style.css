@@ -157,7 +157,7 @@ a {
           width: 100%;
           height: 80%;
           padding: 0 50px;
-          margin: 100px auto 0;
+          margin: 50px auto 0;
           position: relative;
           display: flex;
           justify-content: space-around;
@@ -182,9 +182,37 @@ a {
           display: block;
           width: 100px;
           height: 100px;
-          margin: 0 auto;
+          margin: -20px auto 0;
           border: 1px solid tan;
-          border-radius: 50%; }
+          border-radius: 50%;
+          position: relative; }
+          #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .btn span {
+            display: inline-block;
+            width: 150px;
+            font: 15px/1 'arial';
+            color: tan;
+            position: absolute;
+            top: 40px;
+            left: -30px; }
+          #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .btn::before {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 60px;
+            background: tan;
+            position: absolute;
+            top: 130px;
+            left: 45px; }
+          #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .btn::after {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 10px;
+            background: tan;
+            position: absolute;
+            top: 180px;
+            left: 48px;
+            transform: rotate(30deg); }
   #swiper .swiper-button-next {
     top: 6vh;
     right: 3vw;
