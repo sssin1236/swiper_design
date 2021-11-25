@@ -1,4 +1,17 @@
 @charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Kalam:wght@300&family=Kaushan+Script&family=Libre+Baskerville&family=M+PLUS+1+Code:wght@300&family=Marcellus+SC&family=Merienda&family=Open+Sans+Condensed:wght@300&family=Tenor+Sans&display=swap');
+/*
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Marcellus SC', serif; --
+font-family: 'Merienda', cursive; 00
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Tenor Sans', sans-serif;
+*/
+
 @import "reset.scss";
 
 
@@ -26,11 +39,8 @@
                 &:nth-of-type(1){   
                     background: linear-gradient(90deg, #316ba5 50%, #fff 50%);
                 }
-                &:nth-of-type(2){
-                    background-image: url(../img/bg2.jpg);
-                }
-                &:nth-of-type(3){
-                    background-image: url(../img/bg3.jpg);
+                &:nth-of-type(2){   
+                    background: #111;
                 }
                 &:nth-of-type(4){
                     background-image: url(../img/bg4.jpg);
@@ -71,7 +81,7 @@
                         text-align: right;
 
                         h1{
-                            font: bold 150px/1 'arial';
+                            font: bold 150px/1 'Kaushan Script';
                             color: tan;
                             margin-top: 30px;
                             margin-bottom: 20px;
@@ -123,6 +133,12 @@
                             text-align: justify;
                         }
                     }
+                }
+            }
+
+            &[data-swiper-slide-index="1"]{
+                .inner{
+                    border: 1px solid tan;
                 }
             }
         }

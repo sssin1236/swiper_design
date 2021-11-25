@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Kalam:wght@300&family=Kaushan+Script&family=Libre+Baskerville&family=M+PLUS+1+Code:wght@300&family=Marcellus+SC&family=Merienda&family=Open+Sans+Condensed:wght@300&family=Tenor+Sans&display=swap");
+/*
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Marcellus SC', serif; --
+font-family: 'Merienda', cursive; 00
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Tenor Sans', sans-serif;
+*/
 * {
   margin: 0;
   padding: 0;
@@ -31,9 +43,7 @@ a {
     #swiper .bg li:nth-of-type(1) {
       background: linear-gradient(90deg, #316ba5 50%, #fff 50%); }
     #swiper .bg li:nth-of-type(2) {
-      background-image: url(../img/bg2.jpg); }
-    #swiper .bg li:nth-of-type(3) {
-      background-image: url(../img/bg3.jpg); }
+      background: #111; }
     #swiper .bg li:nth-of-type(4) {
       background-image: url(../img/bg4.jpg); }
   #swiper .swiper-wrapper {
@@ -64,7 +74,7 @@ a {
         padding: 30px 80px;
         text-align: right; }
         #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="0"] .inner .left h1 {
-          font: bold 150px/1 'arial';
+          font: bold 150px/1 'Kaushan Script';
           color: tan;
           margin-top: 30px;
           margin-bottom: 20px; }
@@ -102,6 +112,8 @@ a {
           width: 70%;
           float: right;
           text-align: justify; }
+      #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner {
+        border: 1px solid tan; }
   #swiper .swiper-button-next {
     top: 6vh;
     right: 3vw;
