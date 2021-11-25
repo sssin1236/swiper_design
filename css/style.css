@@ -178,6 +178,13 @@ a {
               transform: translateY(80px) scale(0.9); }
             #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .slide article:nth-of-type(3) {
               transform: translateY(-80px) scale(0.9); }
+        #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .btn {
+          display: block;
+          width: 100px;
+          height: 100px;
+          margin: 0 auto;
+          border: 1px solid tan;
+          border-radius: 50%; }
   #swiper .swiper-button-next {
     top: 6vh;
     right: 3vw;
