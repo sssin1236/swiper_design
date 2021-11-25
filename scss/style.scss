@@ -148,7 +148,7 @@ font-family: 'Tenor Sans', sans-serif;
                             width: 100%; height: 80%;
                             position: absolute;
                             top: 50px; left: 0px;
-                            z-index: 2;
+                            z-index: 3;
 
                             &::after{
                                 content: ''; display: block; clear: both;
@@ -209,11 +209,14 @@ font-family: 'Tenor Sans', sans-serif;
 
                                 .pic{
                                     width: 100%; height: 100%;
+                                    position: relative;
+                                    z-index: 2;
 
                                     img{
                                         width: 100%; height: 100%;
                                         object-fit: cover;
-                                        border-radius: 200px;
+                                        border-top-right-radius: 200px;
+                                        border-top-left-radius: 200px;
                                     }
                                 }
 
@@ -223,6 +226,18 @@ font-family: 'Tenor Sans', sans-serif;
 
                                 &:nth-of-type(3){
                                     transform: translateY(-80px) scale(0.9);
+                                }
+
+                                &::before{
+                                    content: '';
+                                    display: block;
+                                    width: 100%; height: 100%;
+                                    border: 1px solid tan;
+                                    border-top-right-radius: 200px;
+                                    border-top-left-radius: 200px;
+                                    position: absolute;
+                                    top: -50px; right: -50px;
+                                    z-index: 1;
                                 }
                             }
                         }

@@ -124,7 +124,7 @@ a {
           position: absolute;
           top: 50px;
           left: 0px;
-          z-index: 2; }
+          z-index: 3; }
           #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .txt::after {
             content: '';
             display: block;
@@ -168,16 +168,31 @@ a {
             transform: translateY(0px) scale(0.9); }
             #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .slide article .pic {
               width: 100%;
-              height: 100%; }
+              height: 100%;
+              position: relative;
+              z-index: 2; }
               #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .slide article .pic img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                border-radius: 200px; }
+                border-top-right-radius: 200px;
+                border-top-left-radius: 200px; }
             #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .slide article:nth-of-type(1) {
               transform: translateY(80px) scale(0.9); }
             #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .slide article:nth-of-type(3) {
               transform: translateY(-80px) scale(0.9); }
+            #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .slide article::before {
+              content: '';
+              display: block;
+              width: 100%;
+              height: 100%;
+              border: 1px solid tan;
+              border-top-right-radius: 200px;
+              border-top-left-radius: 200px;
+              position: absolute;
+              top: -50px;
+              right: -50px;
+              z-index: 1; }
         #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content .btn {
           display: block;
           width: 100px;
