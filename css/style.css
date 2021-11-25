@@ -112,8 +112,11 @@ a {
           width: 70%;
           float: right;
           text-align: justify; }
-      #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner {
-        border: 1px solid tan; }
+      #swiper .swiper-wrapper .swiper-slide[data-swiper-slide-index="1"] .inner .content {
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        position: relative; }
   #swiper .swiper-button-next {
     top: 6vh;
     right: 3vw;
